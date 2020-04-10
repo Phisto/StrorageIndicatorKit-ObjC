@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double StrorageIndicatorKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char StrorageIndicatorKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <StrorageIndicatorKit/PublicHeader.h>
-
+#import <StrorageIndicatorKit/SGStorageIndicator.h>
 

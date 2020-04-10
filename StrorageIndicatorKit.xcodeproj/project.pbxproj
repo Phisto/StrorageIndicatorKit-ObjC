@@ -8,12 +8,75 @@
 
 /* Begin PBXBuildFile section */
 		4A606E0C243BF22000DDC0E0 /* StrorageIndicatorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A606E0A243BF22000DDC0E0 /* StrorageIndicatorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A63EFDA243DFB1B00C2D21A /* SGStorageIndicatorDelegateProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A7FEC13243C84B6008F2307 /* SGStorageIndicatorDelegateProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A7FEBF3243C7FAD008F2307 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4A7FEBF0243C7FAD008F2307 /* LICENSE */; };
+		4A7FEBF4243C7FAD008F2307 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A7FEBF1243C7FAD008F2307 /* README.md */; };
+		4A7FEBF5243C7FAD008F2307 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4A7FEBF2243C7FAD008F2307 /* .gitignore */; };
+		4A7FEBFF243C801C008F2307 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FEBFE243C801C008F2307 /* AppDelegate.m */; };
+		4A7FEC02243C801C008F2307 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FEC01243C801C008F2307 /* ViewController.m */; };
+		4A7FEC04243C8020008F2307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A7FEC03243C8020008F2307 /* Assets.xcassets */; };
+		4A7FEC07243C8020008F2307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7FEC05243C8020008F2307 /* Main.storyboard */; };
+		4A7FEC0A243C8020008F2307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FEC09243C8020008F2307 /* main.m */; };
+		4A7FEC11243C837F008F2307 /* SGStorageIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A7FEC0F243C837F008F2307 /* SGStorageIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A7FEC12243C837F008F2307 /* SGStorageIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FEC10243C837F008F2307 /* SGStorageIndicator.m */; };
+		4A7FEC16243C8CCE008F2307 /* StrorageIndicatorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A606E07243BF22000DDC0E0 /* StrorageIndicatorKit.framework */; };
+		4A7FEC17243C8CCE008F2307 /* StrorageIndicatorKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A606E07243BF22000DDC0E0 /* StrorageIndicatorKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A7FEC1D243D3DBB008F2307 /* SGSegmentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A7FEC1B243D3DBB008F2307 /* SGSegmentViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4A7FEC1E243D3DBB008F2307 /* SGSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FEC1C243D3DBB008F2307 /* SGSegmentViewController.m */; };
+		4A7FEC20243D3DCE008F2307 /* SegmentView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7FEC1F243D3DCE008F2307 /* SegmentView.storyboard */; };
+		4AB126F7243F46CC00688337 /* NSString+SGWidthInView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB126F5243F46CB00688337 /* NSString+SGWidthInView.h */; };
+		4AB126F8243F46CC00688337 /* NSString+SGWidthInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB126F6243F46CB00688337 /* NSString+SGWidthInView.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A7FEC18243C8CCE008F2307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A606DFE243BF22000DDC0E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A606E06243BF22000DDC0E0;
+			remoteInfo = StrorageIndicatorKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A7FEC1A243C8CCE008F2307 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4A7FEC17243C8CCE008F2307 /* StrorageIndicatorKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4A606E07243BF22000DDC0E0 /* StrorageIndicatorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StrorageIndicatorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A606E0A243BF22000DDC0E0 /* StrorageIndicatorKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrorageIndicatorKit.h; sourceTree = "<group>"; };
 		4A606E0B243BF22000DDC0E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A7FEBF0243C7FAD008F2307 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4A7FEBF1243C7FAD008F2307 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4A7FEBF2243C7FAD008F2307 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4A7FEBFB243C801C008F2307 /* StorageBarExample-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StorageBarExample-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A7FEBFD243C801C008F2307 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A7FEBFE243C801C008F2307 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A7FEC00243C801C008F2307 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A7FEC01243C801C008F2307 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A7FEC03243C8020008F2307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A7FEC06243C8020008F2307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A7FEC08243C8020008F2307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A7FEC09243C8020008F2307 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A7FEC0B243C8020008F2307 /* StorageBarExample_ObjC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StorageBarExample_ObjC.entitlements; sourceTree = "<group>"; };
+		4A7FEC0F243C837F008F2307 /* SGStorageIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGStorageIndicator.h; sourceTree = "<group>"; };
+		4A7FEC10243C837F008F2307 /* SGStorageIndicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGStorageIndicator.m; sourceTree = "<group>"; };
+		4A7FEC13243C84B6008F2307 /* SGStorageIndicatorDelegateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGStorageIndicatorDelegateProtocol.h; sourceTree = "<group>"; };
+		4A7FEC1B243D3DBB008F2307 /* SGSegmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGSegmentViewController.h; sourceTree = "<group>"; };
+		4A7FEC1C243D3DBB008F2307 /* SGSegmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGSegmentViewController.m; sourceTree = "<group>"; };
+		4A7FEC1F243D3DCE008F2307 /* SegmentView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SegmentView.storyboard; sourceTree = "<group>"; };
+		4AB126F5243F46CB00688337 /* NSString+SGWidthInView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SGWidthInView.h"; sourceTree = "<group>"; };
+		4AB126F6243F46CB00688337 /* NSString+SGWidthInView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SGWidthInView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +87,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4A7FEBF8243C801C008F2307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7FEC16243C8CCE008F2307 /* StrorageIndicatorKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -31,7 +102,12 @@
 			isa = PBXGroup;
 			children = (
 				4A606E09243BF22000DDC0E0 /* StrorageIndicatorKit */,
+				4A7FEBFC243C801C008F2307 /* StorageBarExample-ObjC */,
 				4A606E08243BF22000DDC0E0 /* Products */,
+				4A7FEC15243C8CCE008F2307 /* Frameworks */,
+				4A7FEBF1243C7FAD008F2307 /* README.md */,
+				4A7FEBF0243C7FAD008F2307 /* LICENSE */,
+				4A7FEBF2243C7FAD008F2307 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				4A606E07243BF22000DDC0E0 /* StrorageIndicatorKit.framework */,
+				4A7FEBFB243C801C008F2307 /* StorageBarExample-ObjC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,8 +125,47 @@
 			children = (
 				4A606E0A243BF22000DDC0E0 /* StrorageIndicatorKit.h */,
 				4A606E0B243BF22000DDC0E0 /* Info.plist */,
+				4A7FEBF6243C7FD9008F2307 /* Source */,
 			);
 			path = StrorageIndicatorKit;
+			sourceTree = "<group>";
+		};
+		4A7FEBF6243C7FD9008F2307 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4A7FEC13243C84B6008F2307 /* SGStorageIndicatorDelegateProtocol.h */,
+				4A7FEC0F243C837F008F2307 /* SGStorageIndicator.h */,
+				4A7FEC10243C837F008F2307 /* SGStorageIndicator.m */,
+				4A7FEC1B243D3DBB008F2307 /* SGSegmentViewController.h */,
+				4A7FEC1C243D3DBB008F2307 /* SGSegmentViewController.m */,
+				4A7FEC1F243D3DCE008F2307 /* SegmentView.storyboard */,
+				4AB126F5243F46CB00688337 /* NSString+SGWidthInView.h */,
+				4AB126F6243F46CB00688337 /* NSString+SGWidthInView.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		4A7FEBFC243C801C008F2307 /* StorageBarExample-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				4A7FEBFD243C801C008F2307 /* AppDelegate.h */,
+				4A7FEBFE243C801C008F2307 /* AppDelegate.m */,
+				4A7FEC00243C801C008F2307 /* ViewController.h */,
+				4A7FEC01243C801C008F2307 /* ViewController.m */,
+				4A7FEC03243C8020008F2307 /* Assets.xcassets */,
+				4A7FEC05243C8020008F2307 /* Main.storyboard */,
+				4A7FEC08243C8020008F2307 /* Info.plist */,
+				4A7FEC09243C8020008F2307 /* main.m */,
+				4A7FEC0B243C8020008F2307 /* StorageBarExample_ObjC.entitlements */,
+			);
+			path = "StorageBarExample-ObjC";
+			sourceTree = "<group>";
+		};
+		4A7FEC15243C8CCE008F2307 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +175,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7FEC11243C837F008F2307 /* SGStorageIndicator.h in Headers */,
+				4A7FEC1D243D3DBB008F2307 /* SGSegmentViewController.h in Headers */,
 				4A606E0C243BF22000DDC0E0 /* StrorageIndicatorKit.h in Headers */,
+				4A63EFDA243DFB1B00C2D21A /* SGStorageIndicatorDelegateProtocol.h in Headers */,
+				4AB126F7243F46CC00688337 /* NSString+SGWidthInView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +194,7 @@
 				4A606E03243BF22000DDC0E0 /* Sources */,
 				4A606E04243BF22000DDC0E0 /* Frameworks */,
 				4A606E05243BF22000DDC0E0 /* Resources */,
+				4A7FEC14243C8C5E008F2307 /* Increment Build Number */,
 			);
 			buildRules = (
 			);
@@ -83,6 +204,25 @@
 			productName = StrorageIndicatorKit;
 			productReference = 4A606E07243BF22000DDC0E0 /* StrorageIndicatorKit.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		4A7FEBFA243C801C008F2307 /* StorageBarExample-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A7FEC0C243C8020008F2307 /* Build configuration list for PBXNativeTarget "StorageBarExample-ObjC" */;
+			buildPhases = (
+				4A7FEBF7243C801C008F2307 /* Sources */,
+				4A7FEBF8243C801C008F2307 /* Frameworks */,
+				4A7FEBF9243C801C008F2307 /* Resources */,
+				4A7FEC1A243C8CCE008F2307 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A7FEC19243C8CCE008F2307 /* PBXTargetDependency */,
+			);
+			name = "StorageBarExample-ObjC";
+			productName = "StorageBarExample-ObjC";
+			productReference = 4A7FEBFB243C801C008F2307 /* StorageBarExample-ObjC.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -94,6 +234,9 @@
 				ORGANIZATIONNAME = "Simon Gaus";
 				TargetAttributes = {
 					4A606E06243BF22000DDC0E0 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					4A7FEBFA243C801C008F2307 = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
@@ -112,6 +255,7 @@
 			projectRoot = "";
 			targets = (
 				4A606E06243BF22000DDC0E0 /* StrorageIndicatorKit */,
+				4A7FEBFA243C801C008F2307 /* StorageBarExample-ObjC */,
 			);
 		};
 /* End PBXProject section */
@@ -121,20 +265,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7FEBF4243C7FAD008F2307 /* README.md in Resources */,
+				4A7FEBF5243C7FAD008F2307 /* .gitignore in Resources */,
+				4A7FEBF3243C7FAD008F2307 /* LICENSE in Resources */,
+				4A7FEC20243D3DCE008F2307 /* SegmentView.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A7FEBF9243C801C008F2307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7FEC04243C8020008F2307 /* Assets.xcassets in Resources */,
+				4A7FEC07243C8020008F2307 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A7FEC14243C8C5E008F2307 /* Increment Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Increment Build Number";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A606E03243BF22000DDC0E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7FEC1E243D3DBB008F2307 /* SGSegmentViewController.m in Sources */,
+				4AB126F8243F46CC00688337 /* NSString+SGWidthInView.m in Sources */,
+				4A7FEC12243C837F008F2307 /* SGStorageIndicator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A7FEBF7243C801C008F2307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7FEC02243C801C008F2307 /* ViewController.m in Sources */,
+				4A7FEC0A243C8020008F2307 /* main.m in Sources */,
+				4A7FEBFF243C801C008F2307 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A7FEC19243C8CCE008F2307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A606E06243BF22000DDC0E0 /* StrorageIndicatorKit */;
+			targetProxy = 4A7FEC18243C8CCE008F2307 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A7FEC05243C8020008F2307 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A7FEC06243C8020008F2307 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4A606E0D243BF22000DDC0E0 /* Debug */ = {
@@ -188,7 +398,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -243,7 +453,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -257,6 +467,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = N67G6688LK;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -280,6 +491,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = N67G6688LK;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -295,6 +507,44 @@
 				PRODUCT_BUNDLE_IDENTIFIER = de.simonsserver.StrorageIndicatorKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4A7FEC0D243C8020008F2307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "StorageBarExample-ObjC/StorageBarExample_ObjC.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N67G6688LK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "StorageBarExample-ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.simonsserver.StorageBarExample-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A7FEC0E243C8020008F2307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "StorageBarExample-ObjC/StorageBarExample_ObjC.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N67G6688LK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "StorageBarExample-ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.simonsserver.StorageBarExample-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -315,6 +565,15 @@
 			buildConfigurations = (
 				4A606E10243BF22000DDC0E0 /* Debug */,
 				4A606E11243BF22000DDC0E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A7FEC0C243C8020008F2307 /* Build configuration list for PBXNativeTarget "StorageBarExample-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A7FEC0D243C8020008F2307 /* Debug */,
+				4A7FEC0E243C8020008F2307 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

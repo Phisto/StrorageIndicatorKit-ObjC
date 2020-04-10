@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="mbe-jo-IyV">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16096"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Segment View Controller-->
+        <scene sceneID="NMK-Dp-b9K">
+            <objects>
+                <viewController id="mbe-jo-IyV" customClass="SGSegmentViewController" sceneMemberID="viewController">
+                    <view key="view" id="12L-rs-YuL">
+                        <rect key="frame" x="0.0" y="0.0" width="110" height="51"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" setsMaxLayoutWidthAtFirstLayout="YES" textCompletion="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MqU-D8-CrX">
+                                <rect key="frame" x="8" y="30" width="94" height="16"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" allowsUndo="NO" alignment="center" title="SegmentTitle" usesSingleLineMode="YES" id="rAs-yd-WcB">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="IHJ-fX-ipm">
+                                <rect key="frame" x="8" y="10" width="94" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="truncatingTail" alignment="center" title="100 GB" usesSingleLineMode="YES" id="Raf-lS-r0i">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="IHJ-fX-ipm" firstAttribute="leading" secondItem="MqU-D8-CrX" secondAttribute="leading" id="0Ad-RQ-Iaq"/>
+                            <constraint firstItem="IHJ-fX-ipm" firstAttribute="top" secondItem="MqU-D8-CrX" secondAttribute="bottom" constant="4" id="HpZ-6C-2Mq"/>
+                            <constraint firstAttribute="trailing" secondItem="MqU-D8-CrX" secondAttribute="trailing" constant="10" id="QRv-WP-M2w"/>
+                            <constraint firstItem="MqU-D8-CrX" firstAttribute="top" secondItem="12L-rs-YuL" secondAttribute="top" constant="5" id="Sxv-VZ-iYf"/>
+                            <constraint firstItem="IHJ-fX-ipm" firstAttribute="trailing" secondItem="MqU-D8-CrX" secondAttribute="trailing" id="Yc9-GZ-VAg"/>
+                            <constraint firstItem="MqU-D8-CrX" firstAttribute="leading" secondItem="12L-rs-YuL" secondAttribute="leading" constant="10" id="jHt-9X-0RA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="segmentCapacityLabel" destination="IHJ-fX-ipm" id="Mnu-WI-apb"/>
+                        <outlet property="segmentTitleLabel" destination="MqU-D8-CrX" id="hVr-J9-ABe"/>
+                    </connections>
+                </viewController>
+                <customObject id="Q0o-bY-LGd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-131.5" y="-29.5"/>
+        </scene>
+    </scenes>
+</document>

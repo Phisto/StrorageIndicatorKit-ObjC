@@ -1,5 +1,5 @@
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![License](https://img.shields.io/github/license/phisto/StrorageIndicatorKit-ObjC.svg)](https://github.com/Phisto//InfoBarKit-ObjC)
+[![License](https://img.shields.io/github/license/phisto/StrorageIndicatorKit-ObjC.svg)](https://github.com/Phisto/StrorageIndicatorKit-ObjC)
 
 # StrorageIndicatorKit
 

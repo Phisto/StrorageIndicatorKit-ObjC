@@ -3,7 +3,7 @@
 //  StrorageIndicatorKit
 //
 //  Created by Simon Gaus on 07.04.20.
-//  Copyright © 2020 Simon Gaus. All rights reserved.
+//  Copyright © 2020-2024 Simon Gaus. All rights reserved.
 //
 
 #import "SGStorageIndicator.h"
@@ -146,7 +146,7 @@ static CGFloat const kCornerRadius = 5.0f;
         [self setNeedsDisplay:YES];
     }
     else {
-        NSLog(@"Please configure a delegate for the porgress indicator.");
+        NSLog(@"Please configure a delegate for the progress indicator.");
     }
 }
 
@@ -254,7 +254,7 @@ static CGFloat const kCornerRadius = 5.0f;
         if (visibleRect.size.width > titleWidth+(_segmentTitleInset*2.0f)) {
 
             NSMutableParagraphStyle* textStyle = [[NSMutableParagraphStyle alloc] init];
-            textStyle.alignment = NSLeftTextAlignment;
+            textStyle.alignment = NSTextAlignmentLeft;
             NSDictionary* textFontAttributes = @{NSFontAttributeName: [NSFont systemFontOfSize: NSFont.systemFontSize], NSForegroundColorAttributeName: self.segmentTitleColor, NSParagraphStyleAttributeName: textStyle};
             CGFloat textTextHeight = [title boundingRectWithSize:visibleRect.size options:NSStringDrawingUsesLineFragmentOrigin attributes:textFontAttributes].size.height;
             NSRect textTextRect = NSMakeRect(NSMinX(visibleRect)+10.0f, NSMinY(visibleRect) + (visibleRect.size.height - textTextHeight) / 2, visibleRect.size.width, textTextHeight);

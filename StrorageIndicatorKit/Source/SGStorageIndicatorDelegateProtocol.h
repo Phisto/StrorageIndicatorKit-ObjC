@@ -3,10 +3,10 @@
 //  StrorageIndicatorKit
 //
 //  Created by Simon Gaus on 07.04.20.
-//  Copyright © 2020 Simon Gaus. All rights reserved.
+//  Copyright © 2020-2024 Simon Gaus. All rights reserved.
 //
 
-@import Cocoa;
+#import <Cocoa/Cocoa.h>
 
 /**
  

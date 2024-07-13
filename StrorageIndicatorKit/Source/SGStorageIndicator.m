@@ -87,10 +87,14 @@ static CGFloat const kCornerRadius = 5.0f;
     _currentMouseSegment = SGSelectedSegmentNone;
     _showSegmentIndicator = YES;
     _segmentTitleInset = 10.0f;
-    
+
     [self configureTrackingArea];
     
     [self setNeedsUpdateConstraints:YES];
+}
+
+- (BOOL)clipsToBounds {
+    return YES;
 }
 
 - (void)updateTrackingAreas {

@@ -8,7 +8,7 @@ The StrorageIndicatorKit framework provides a storage indicator view similar to 
 
 ## Requirements
 
--  macOS 10.10+
+-  macOS 10.13+
 
   
 ## Installation
